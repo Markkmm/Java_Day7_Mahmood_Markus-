@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main1.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- CDN Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- CDN Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Code Review 1 with Libraries</title>
+  </head>
+  <body>
+    <div id="tsparticles"></div>
+    <header>
+      <div class="d-flex justify-content-around pt-5 ">
+        <p class="pt-3">Mahmood Al Qaisi- Future Full-Stack Web Developer</p>
+        <img class="img_logo" src="img/logo.png" alt="Logo img" />
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="contact.html" target="_self">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Swiper ------------------------------------- -->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="rounded  "   src="https://www.q-fi.at/uploads/pics/News_765x350px.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded" src="https://thumbs.dreamstime.com/b/culture-colored-rainbow-word-text-suitable-logo-design-card-brochure-typography-127992741.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded" src="https://cdn.corporatefinanceinstitute.com/assets/finance-definition.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded"  src="https://i.ytimg.com/vi/Rylc-rBaW9E/maxresdefault.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded" src="http://starreviews.net/wp-content/uploads/2021/01/Modren-Tech-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded" src="https://www.ailmalaga.com/wp-content/uploads/2018/06/Cinema.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+    <main>
+      <!-- Phone Image and its Container-->
+      <div class="mt-5 text-center">
+        <figure>
+          <img class="animate__animated  animate__bounceIn animate__delay-3s phoneImg rounded " src="./img/Phone.png" alt="Phone Img" />
+          <figcaption>
+            <strong>
+              Samsung Galaxy S11/S20 Plus Video leaks showing phone in real life
+            </strong>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Debit Card Image and its Container-->
+      <div class="d-flex justify-content-around mb-4">
+          <figure class="animate__animated animate__slideInLeft animate__delay-3s w-40 text-end ">
+            <img class="img-fluid rounded " src="./img/Debit_card_ATM.jpg" alt="Debit Card" />
+            <figcaption class="figcaption1 pt-2">
+              Police are investigating three ATM <br />
+              explosions in two Florida counties
+            </figcaption>
+          </figure>
+
+          <figure class="animate__animated animate__slideInRight animate__delay-3s w-40 ">
+            <img class="img-fluid rounded " src="./img/Taxify-Scooters.jpg" alt="scooter" />
+            <figcaption class="figcaption2 pt-2 ">
+              E-scooter firm bolt pulls out of 12 
+              cities
+            </figcaption>
+          </figure>
+        
+      </div>
+    </main>
+
+    <footer>
+      <figure>
+        <img src="img/logo.png" alt="Logo for footer" />
+        <figcaption>Mahmood - CodeFactory 2021</figcaption>
+      </figure>
+    </footer>
+
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.35.0/tsparticles.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="js/main1.js"></script>
+
+
+  </body>
+</html>
