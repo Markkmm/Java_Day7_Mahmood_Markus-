@@ -47,7 +47,7 @@ nav ul li{
 /* Phone Image  */
 .phoneImg{
     width: 50%;
-    height: 20vh;
+    height: 30vh;
     margin: auto;
     object-fit: cover;
 
@@ -83,7 +83,7 @@ footer{
 }
 
 footer img{
-    width: 130px;
+    width: 13vw;
 }
 footer figcaption{
     margin-top: 4px;
